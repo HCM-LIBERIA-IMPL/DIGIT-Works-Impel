@@ -23,9 +23,9 @@ config:
     build:
       - work-dir: "backend/attendance"
         dockerfile: "build/maven/Dockerfile"
-        image-name: "attendance"
+        image-name: "attendance-impel"
       - work-dir: "backend/attendance/src/main/resources/db"
-        image-name: "attendance-db"
+        image-name: "attendance-impel-db"
 
 #  - name: "builds/health-campaign-services/health-services/health-attendance-works"
 #    build:
