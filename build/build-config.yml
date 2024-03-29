@@ -19,7 +19,7 @@
 config:
 
 # backend
-  - name: "builds/digit-works-impel/backend/attendance"
+  - name: "builds/digit-works-impel/backend/attendance-impel"
     build:
       - work-dir: "backend/attendance"
         dockerfile: "build/maven/Dockerfile"
